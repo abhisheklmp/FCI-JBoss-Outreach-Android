@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".AboutActivity"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top|fill_horizontal"
+		android:padding="30dp"
+		android:layout_marginBottom="30dp"
+		android:text="App made during a Google Code-in 2018 task "
+		android:textAlignment="center"
+		android:textSize="24sp"
+		android:textStyle="bold" />
+
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="100dp"
+		android:layout_height="100dp"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="10dp"
+		android:outlineProvider="bounds"
+		app:srcCompat="@drawable/avatar"
+		android:padding="1dp"/>
+
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Abhishek Gupta"
+		android:textAlignment="center"
+		android:textColor="@color/colorAccent"
+		android:textSize="17sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="abhishekguptalmp304@gmail.com"
+		android:textAlignment="center"
+		android:textColor="@color/colorAccent"
+		android:textSize="17sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/textView4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="GitHub : abhisheklmp"
+		android:textAlignment="center"
+		android:textColor="@color/colorAccent"
+		android:textSize="17sp"
+		android:textStyle="bold" />
+
+
+</LinearLayout>
